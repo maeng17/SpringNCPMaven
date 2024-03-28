@@ -46,4 +46,28 @@ public class UserUploadDAOMybatis implements UserUploadDAO {
 		return sqlSession.selectList("userUploadSQL.getUploadList");
 	}
 
+	@Override
+	public UserImageDTO getUploadImage(String seq) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getImageFileName(int seq) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void uploadUpdate(UserImageDTO userImageDTO) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void uploadDelete(List<String> list) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
